@@ -4,6 +4,7 @@ class Item
 {
 	String name;
 	String description;
+	Stats stats;
 
 	public Item()
 	{

@@ -4,9 +4,7 @@ import java.util.ArrayList;
 
 public class Unit
 {
-	double health;
-	double damage;
-	double armour;
+	Stats stats;
 	ArrayList<Effect> effects;
 	boolean isDead;
 
