@@ -1,0 +1,13 @@
+package ex1;
+
+public class ex1
+{
+	public static void main(String[] args)
+	{
+			int i;
+			char c;
+			System.out.println("Uninitialized int: ", i);
+			System.out.println("Uninitialized char: ", c);
+	}
+
+}

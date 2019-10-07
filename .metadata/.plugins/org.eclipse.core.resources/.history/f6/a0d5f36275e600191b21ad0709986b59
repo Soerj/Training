@@ -1,0 +1,55 @@
+
+public class App
+{
+
+	public static void main(String[] args)
+	{
+		Hero sham, pala;
+		sham = new Shaman();
+		pala = new Paladin();
+		sham.GetClassName();
+		pala.GetClassName();
+	}
+
+}
+
+class Hero
+{
+	protected String className;
+
+	public Hero()
+	{
+		this.className = "Hero";
+	}
+
+	public void GetClassName()
+	{
+		System.out.println(className);
+	}
+}
+
+class Paladin extends Hero
+{
+	public Paladin()
+	{
+		this.className = "Paladin";
+	}
+
+	public void Heal()
+	{
+
+	}
+}
+
+class Shaman extends Hero
+{
+	public Shaman()
+	{
+		this.className = "Shaman";
+	}
+
+	public void Damage()
+	{
+
+	}
+}
