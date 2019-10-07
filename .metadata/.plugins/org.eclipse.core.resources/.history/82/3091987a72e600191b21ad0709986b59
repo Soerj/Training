@@ -1,8 +1,0 @@
-
-public class MoneyTransferService {
-
-	public MoneyTransferService() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
