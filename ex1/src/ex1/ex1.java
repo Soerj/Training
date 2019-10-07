@@ -4,10 +4,21 @@ public class ex1
 {
 	public static void main(String[] args)
 	{
-		int i = 0;
-		char c = 'c';
-		System.out.println("initialized int: " + i);
-		System.out.println("initialized char: " + c);
+		Ex ex = new Ex();
+		System.out.println("Uninitialized int: " + ex.i);
+		System.out.println("Uninitialized char: " + ex.c);
+	}
+
+}
+
+class Ex
+{
+	public int i;
+	public char c;
+
+	public Ex()
+	{
+
 	}
 
 }
