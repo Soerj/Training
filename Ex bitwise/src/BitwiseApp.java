@@ -4,16 +4,25 @@ public class BitwiseApp
 
 	public static void main(String[] args)
 	{
-		int h = 7;
-		System.out.println(h + " = " + Integer.toBinaryString(h));
-		h++;
-		System.out.println(h + " = " + Integer.toBinaryString(h));
-		h = h>>1;
-		System.out.println(h + " = " + Integer.toBinaryString(h));
-		h *= 3;
-		System.out.println(h + " = " + Integer.toBinaryString(h));
-		h = h<<2;
-		System.out.println(h + " = " + Integer.toBinaryString(h));
+		int i = -1;
+		System.out.println("int " + i + " = " + Integer.toBinaryString(i));
+		i >>>= 10;
+		System.out.println("int " + i + " = " + Integer.toBinaryString(i));
+		long l = -1;
+		System.out.println("long " + l + " = " + Long.toBinaryString(l));
+		l >>>= 10;
+		System.out.println("long " + l + " = " + Long.toBinaryString(l));
+		short s = -1;
+		System.out.println("short " + s + " = " + Integer.toBinaryString(s));
+		s >>>= 10;
+		System.out.println("short " + s + " = " + Integer.toBinaryString(s));
+		byte b = -1;
+		System.out.println("byte " + b + " = " + Integer.toBinaryString(b));
+		b >>>= 10;
+		System.out.println("byte " + b + " = " + Integer.toBinaryString(b));
+		b = -1;
+		System.out.println("byte " + b + " = " + Integer.toBinaryString(b));
+		System.out.println("byte " + (b >>> 10) + " = " + Integer.toBinaryString(b >>> 10));
 	}
 
 }
