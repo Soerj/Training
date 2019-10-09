@@ -6,6 +6,7 @@ public class BitwiseApp
 	{
 		int i = -1;
 		System.out.println("int " + i + " = " + Integer.toBinaryString(i));
+		//signed bitwise operator
 		i >>>= 10;
 		System.out.println("int " + i + " = " + Integer.toBinaryString(i));
 		long l = -1;
