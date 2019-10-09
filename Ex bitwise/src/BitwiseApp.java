@@ -23,6 +23,13 @@ public class BitwiseApp
 		b = -1;
 		System.out.println("byte " + b + " = " + Integer.toBinaryString(b));
 		System.out.println("byte " + (b >>> 10) + " = " + Integer.toBinaryString(b >>> 10));
+		
+		int j = 1;
+		while (j > 0)
+		{
+			j = j >>> 1;
+			System.out.println(Integer.toBinaryString(j));
+		}
 	}
 
 }
