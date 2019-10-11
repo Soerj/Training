@@ -3,14 +3,14 @@ public class B extends A
 {
 	public int x = 11;
 
-	public int getX()
+	public void printBx()
 	{
-		return this.x;
+		System.out.println(x);
 	}
 
-	public int getSuperX()
+	public void printAx()
 	{
-		return super.x;
+		super.print();
 	}
 
 	/* This will not work
