@@ -11,4 +11,9 @@ public class Rectangle extends Shape
 	{
 		return "Rectangle";
 	}
+	
+	public void print()
+	{
+		System.out.println("public print");
+	}
 }

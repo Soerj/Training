@@ -11,4 +11,9 @@ public class Circle extends Shape
 	{
 		return "Circle";
 	}
+	
+	public void print()
+	{
+		System.out.println("public print");
+	}
 }

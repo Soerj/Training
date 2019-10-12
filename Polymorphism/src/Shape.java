@@ -14,7 +14,18 @@ public class Shape
 		}
 
 	}
+	
 	/*
 	 * @Override public String toString() { return "Shape"; }
 	 */
+	
+	public static void magic(Shape s)
+	{
+		s.print();
+	}
+	
+	private void print()
+	{
+		System.out.println("private print");
+	}
 }
