@@ -15,10 +15,6 @@ public class Shape
 
 	}
 	/*
-	@Override
-	public String toString()
-	{
-		return "Shape";
-	}
-	*/
+	 * @Override public String toString() { return "Shape"; }
+	 */
 }
