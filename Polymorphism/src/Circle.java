@@ -5,4 +5,10 @@ public class Circle extends Shape
 	{
 		System.out.println("draw circle");
 	}
+
+	@Override
+	public String toString()
+	{
+		return "Circle";
+	}
 }

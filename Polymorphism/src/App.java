@@ -10,6 +10,8 @@ public class App
 		
 		Shape[] sp = {s, c, r};
 		Shape.drawShapes(sp);
+		
+		System.out.println(s + ", " + c + ", " + r);
 
 	}
 
