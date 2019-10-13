@@ -9,6 +9,7 @@ public class App
 		
 		c.brake(new BrakeWithABS());
 		c.brake(new BrakeWithoutABS());
+		c.brake(new HandBrake());
 	}
 
 }
