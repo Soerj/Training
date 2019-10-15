@@ -5,7 +5,7 @@ public abstract class ACreature
 	{
 		System.out.println("run, fools");
 	}
-	public void attack() {}
+	public abstract void attack();
 	public void act()
 	{
 		attack();
