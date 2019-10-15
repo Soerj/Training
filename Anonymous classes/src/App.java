@@ -25,17 +25,9 @@ public class App
 			}
 		};
 		
-		//airplain.fly();
-		//bird.fly();
-		
-		toHell(bird);
+		airplain.fly();
+		bird.fly();
 
-	}
-	
-	public static void toHell(ICanFly obj)
-	{
-		obj.fly();
-		System.out.println("to hell");
 	}
 
 }
