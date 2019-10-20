@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Fibo
 {
-	private long ind = 0;// index
+	private int ind = 0;// index
 	private long a, b;   // the last 2 numbers before [index] element
 	private long fibonacci;
 	
@@ -39,10 +39,10 @@ public class Fibo
 		return fibonacci;
 	}
 	
-	public long getNumberAt(long index)
+	public long getNumberAt(int index)
 	{
 		Fibo f = new Fibo();
-		for (long i = 1; i < index; i++)
+		for (int i = 1; i < index; i++)
 		{
 			f.next();
 		}
